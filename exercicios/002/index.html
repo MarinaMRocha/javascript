@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>data types</title>
+    <style>
+        body{
+            background-color: pink;
+            color: rgba(0, 128, 0, 0.699);
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        p{
+            color: rgb(13, 12, 14);
+            text-align: justify;
+            text-indent: 20px;
+            line-height: 1.8em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Lorem ipsum dolor sit amet consectetur</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+    Ea doloribus, cumque dicta nisi quas blanditiis perferendis 
+    sequi veritatis inventore consectetur, ipsam in laborum ab 
+    quasi esse at dignissimos debitis error.</p>
+    <script>
+        //'lorem bla bla bla, s' == nao faz interpolacao
+        //'lorem bla bla bla,' + s == usa concatenacao
+        //`lorem bla bla bla ${s}` == usa template string
+        var nome = window.prompt('Qual e seu nome?') // Pergunta o nome e guarda na var
+        window.alert('Seja bem vindo ao site, ' + nome + '!')
+        var n1 = Number(window.prompt('Digite um numero: '))
+        var n2 = Number(window.prompt('Digite um outro numero: '))
+        var s = n1 + n2
+        window.alert(`A soma entre ${n1} e ${n2} e igual a ${s}`) //concatenacao
+        // number + number para adicao
+        // string + string para concatenacao
+    </script>
+</body>
+</html>
